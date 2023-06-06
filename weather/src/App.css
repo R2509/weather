@@ -1,0 +1,15 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 25%;
+  aspect-ratio: 2 / 1;
+}
+
+.modal > input {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  box-sizing: border-box;
+}
