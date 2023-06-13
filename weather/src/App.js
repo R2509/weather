@@ -5,7 +5,7 @@ function App() {
     return (
         <>
             <Modal className="modal" isOpen={true}>
-                <input type='text' placeholder='enter a country' />
+                <input onClick={ev => {ev.target.parentElement.classList.add('expand')}} onInput={ev => {ev.target.style.width = `${ev.target.value.length}ch`}} type='text' placeholder='Type a place...' />
             </Modal>
         </>
     );
